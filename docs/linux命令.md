@@ -7,7 +7,7 @@ halt
 shutdown -h nw
 ```
 
-+ centos 防火墙
++ 防火墙
 ```shell
 # 查询防护墙状态
 firewall-cmd --state
@@ -23,4 +23,19 @@ systemctl start firewalld
 
 # 启用防火强
 systemctl enable  firewalld
+```
+
++ 更改文件属性
+```shell
+# 递归更改文件属组为 root
+chgrp -R root 文件名称
+
+# 递归更改文件属主为 root
+chown -R root:root 文件名称
+
+# 更改文件读写执行权限
+chmod 777 文件名称
+
+# 增加文件执行权限
+chmod +x 文件名称
 ```
