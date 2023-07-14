@@ -19,3 +19,12 @@ git branch -D branch_name
 ```shell
 git push origin --delete branch_name
 ```
+
++ 删除git已提交文件
+```shell
+# 删除 .idea
+git rm --cached -r .idea
+
+# 删除 .iml
+git rm --cached -r *.iml
+```
