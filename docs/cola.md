@@ -5,7 +5,6 @@
 https://gitee.com/codeok/COLA
 
 # maven 生成项目
-
 mvn archetype:generate  \
     -DgroupId=com.alibaba.cola.demo.web \
     -DartifactId=demo-web \
