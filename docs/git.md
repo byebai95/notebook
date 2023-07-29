@@ -1,4 +1,5 @@
 ## Git 常用命令
+![git](https://github.com/byebai95/notebook/blob/main/img/git.png)
 
 + 查看本地分支列表
 ```shell
